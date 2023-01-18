@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rainbow-grid/static/css/main.a0cc25ca.css",
+    "main.js": "/rainbow-grid/static/js/main.d618f51b.js",
+    "index.html": "/rainbow-grid/index.html",
+    "main.a0cc25ca.css.map": "/rainbow-grid/static/css/main.a0cc25ca.css.map",
+    "main.d618f51b.js.map": "/rainbow-grid/static/js/main.d618f51b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0cc25ca.css",
+    "static/js/main.d618f51b.js"
+  ]
+}
