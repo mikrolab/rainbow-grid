@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+    .board {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        max-width: calc(43px * 16);
+    }
+    
+   .cell {
+       width: 42px;
+       height: 42px;
+   }
+    
+    .controlPanel {
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: calc(43px * 16);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .newColors {
+            display: flex;
+            flex-flow: column;
+            align-items: end;
+            gap: 5px;
+            
+            label {
+                display: block;
+                
+                span {
+                    color: darkred;
+                }
+            }
+            
+            .btn {
+                width: fit-content;
+            }
+        }
+        
+        .btn {
+            border: none;
+            padding: 5px;
+            background-color: teal;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
